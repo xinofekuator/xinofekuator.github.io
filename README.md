@@ -1,5 +1,5 @@
 # xinofekuator.github.io
-Personal webpage of Ignacio Amaya: xinofekuator.github.io
+Personal webpage of Ignacio Amaya: http://xinofekuator.github.io
 
 Personal webpage built with Jalpc (https://github.com/jarrekk/Jalpc).
 
