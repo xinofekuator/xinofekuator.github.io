@@ -1,0 +1,95 @@
+{
+  "website":{
+    "title": "Jack's blog"
+  },
+  "nav":{
+    "home": "Home",
+    "about_me": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "publications": "Publications",
+    "career": "Career",
+    "blog": "Blog",
+    "link": "Link"
+  },
+  "about_me":{
+    "about_me": "About Me",
+    "des": "I am a data scientist specialized in Big Data. I have experience with the Hadoop ecosystem, specially using Spark. I excel at exploring and cleaning data in order to apply machine learning algorithms to unveil its secrets. I love working across different teams in order to enable improvements due to collaboration. I am also curious by nature and love to explore new technologies and domains in order to keep learning."
+  },
+  "skills":{
+    "my_skills": "My Skills"
+  },
+  "projects":{
+    "my_projects": "My Projects",
+    "imbalance": "Repository with different resources that add some useful funcionalities to Spark ML when dealing with unbalanced datasets.",
+    "uni": "Repository with some of the coding projects completed during my BSc in Maths and Computer Science and my MSc in Data Science.",
+    "contest": "Repository with the code submitted to some programming contests I have participated in.",
+    "shiny": "My first project created in Shiny to test its funcionalities."
+  },
+  "career":{
+    "my_career": "My Career",
+    "qliro": "Qliro AB, Stockholm",
+    "qliro_des": "In February 2017, I started working at Qliro, a leader online payments provider in the Nordics. I was part of the BI team and my main job consited in creating ETL jobs in Scala for migrating data from MS SQL to Hadoop. After some months working there I started to carry on my master thesis about fraud detection in collaboration with the fraud team. The outcome of this project was an automatic fraud detection system developed using Spark ML that leveraged machine learning algorithms to ease the work of the fraud investigators.",
+    "qliro_date": "Feb 2017 - Sep 2017",
+    "qliro_job": "Big Data Developer",
+    "hack": "HackSociety, Bucharest",
+    "hack_des": "In December 2016 I participated at the first edition of the hackathon HackSociety and our team won the first place of the FotoNation challenge. Our winner program converted a laptop into a touch screen for drawing flow diagrams using two low quality cameras and a regular pencil.",
+    "hack_date": "Dec 2016",
+    "hack_job": "Winner of hackathon",
+    "kth": "Royal Institute of Technology (KTH), Stockholm",
+    "kth_des": "From September 2016 to August 2017 I was doing my EIT Digital Data Science Master specialization in Distributed Systems and Data Mining for Really Big Data at KTH. I wrote a master thesis about fraud detection using Big Data in collaboration with Qliro and a minor thesis about business regarding a competitive analysis of BI tools.",
+    "kth_date": "Sep 2016 - Aug 2017",
+    "kth_job": "MSc student",
+    "summer": "EIT Summer School about Smart Spaces, Helsinki",
+    "summer_des": "In August 2016, I participated in the EIT Summer School about Smart Spaces that was held in Helsinki during two weeks. The classes were oriented to create a business plan about a smart spaces startup idea paying a special attention to solving real customer pains.",
+    "summer_date": "Aug 2016",
+    "summer_job": "Summer School Participant",
+    "indizen": "Indizen, Madrid",
+    "indizen_des": "In May 2016, I started an Internship with Indizen as part of its Big Data department. I was involved in a project that consisted in analyzing geolocated social media data to detect news happening in real time and visualize them in a map of Barcelona. This data could be used to enhance newpapers teams in charge of detecting news. This project was developed in Python using Elasticsearch and Kibana in AWS.",
+    "indizen_date": "May 2016 - Jun 2016",
+    "indizen_job": "Data Science Intern",
+    "vaciatucasa": "Vaciatucasa, Madrid",
+    "vaciatucasa_des": "In March 2016 I developed a Point of Sale sofware program for Vaciatucasa. This company needed a simple POS system to enable street market sells.",
+    "vaciatucasa_date": "Mar 2016",
+    "vaciatucasa_job": "Freelance developer",
+    "upm": "Technical University of Madrid (UPM), Madrid",
+    "upm_des": "In September 2016, I started my Data Science master in Madrid as part of the EIT Digital double degree program. Here I took basic courses about data mining, machine learning and distributed systems. We also took introductory courses about Business Innovation and Entrepreneurship as part of my minor, which plays a very important role in EIT Digital master programs.",
+    "upm_date": "Sep 2015 - Jun 2016",
+    "upm_job": "MSc student",
+    "crida": "CRIDA A.I.E., Madrid",
+    "crida_des": "In May 2015 I started working at CRIDA as a developer in the context of Eurpean Air Trafic Control projects. I was in charge of designing ETL processes to load raw sources received daily into the company database. I also did data analysis and database maintenance. As a side project I created in Java a program that split audio files from airport control towers according to their silence gaps.",
+    "crida_date": "May 2015 - Jul 2015",
+    "crida_job": "Developer Intern",
+    "ies": "IES Abroad, Madrid",
+    "ies_des": "From March 2015 to May 2015 I was giving classes about databases to exchange American students.",
+    "ies_date": "Mar 2015 - May 2015",
+    "ies_job": "Private Tutor",
+    "math": "Applied Math Department at UPM, Madrid",
+    "math_des": "From December 2014 to March 2015 I developed ContestMaker, a graphic app in Java, using Processing, which eased the process of creating interdisciplicary student contests. I was in charge of gathering all the questions created by the students from twelve different subjects. The contest gave the student extra points in the subjects for creating the questions, enabled collaboration across student from different courses, and the best team in the competition won additional points.",
+    "math_date": "Dec 2014 - Mar 2015",
+    "math_job": "University Intern",
+    "degree": "Technical University of Madrid (UPM), Madrid",
+    "degree_des": "From September 2011 to July 2015 I was pursuing my Bachelor's Degree in Mathematics and Informatics. This program focused in the interrelationship between the two disciplines, giving the students the necessary tools to solve problems in multiple scientific, technological and business fields.",
+    "degree_date": "Sep 2011 - Jul 2015",
+    "degree_job": "BSc Student"
+  },
+  "publications":{
+    "my_publications": "My Publications",
+    "kth_title": "Fraud detection in online payments using Spark ML",
+    "kth_author": "Amaya de la peña, Ignacio",
+    "kth_data": "Master Thesis, Royal Institute of Technology (KTH), Stockholm, Sweden, 2017.",
+    "kth_pdf": "static/pdf/msc_thesis.pdf",
+    "upm_title": "Presencia en Twitter de los candidatos a las elecciones madrileñas de 2015",
+    "upm_author": "Amaya de la peña, Ignacio",
+    "upm_data" : "BSc thesis, E.T.S. de Ingenieros Informáticos (UPM), Madrid, Spain, 2015.",
+    "upm_pdf": "static/pdf/bsc_thesis.pdf"
+  },
+  "blog":{
+    "my_blog": "My Blog"
+  },
+  "link":{
+    "link": "Link",
+    "view": "views"
+  }
+
+}

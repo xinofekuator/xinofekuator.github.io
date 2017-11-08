@@ -1,0 +1,23 @@
+- name: 'Spark-imbalance'
+  i18n: 'imbalance'
+  url: '/xinofekuator/spark-imbalance'
+  img: 'static/img/landing/spark.png'
+  desc: 'Repository with different resources that add some useful funcionalities to Spark ML when dealing with unbalanced datasets.'
+
+- name: 'University-projects'
+  i18n: 'uni'
+  url: '/xinofekuator/university-projects'
+  img: 'static/img/landing/study.png'
+  desc: 'Repository with some of the coding projects completed during my BSc in Maths and Computer Science.'
+
+- name: 'Contests-code'
+  i18n: 'contest'
+  url: '/xinofekuator/contests-code'
+  img: 'static/img/landing/contest.jpg'
+  desc: 'Repository with the code submitted to some contests I have participated in.'
+
+- name: 'ShinyFirstProject'
+  i18n: 'shiny'
+  url: '/xinofekuator/ShinyFirstProject'
+  img: 'static/img/landing/shiny.png'
+  desc: 'My first project created in Shiny to test its funcionalities.'

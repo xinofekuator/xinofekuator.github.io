@@ -1,0 +1,41 @@
+- name: Python (scikit-learn, pandas, tensorflow)
+  percentage: 95
+
+- name: Java
+  percentage: 95
+
+- name: Spark ML
+  percentage: 95
+
+- name: Scala
+  percentage: 85
+
+- name: H2O
+  percentage: 85
+
+- name: Hadoop
+  percentage: 85
+
+- name: MATLAB
+  percentage: 85
+
+- name: Spark
+  percentage: 75
+
+- name: R
+  percentage: 75
+
+- name: Oozie
+  percentage: 75
+
+- name: AWS
+  percentage: 75
+
+- name: Sqoop
+  percentage: 75
+
+- name: Elastic Stack
+  percentage: 75
+
+- name: Linux/Unix
+  percentage: 75

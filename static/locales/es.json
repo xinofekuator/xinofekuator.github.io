@@ -1,0 +1,87 @@
+{
+  "website":{
+    "title": "Jack's blog"
+  },
+  "nav":{
+    "home": "Inicio",
+    "about_me": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Projectos",
+    "publications": "Publicaciones",
+    "career": "Experiencia",
+    "blog": "Blog",
+    "link": "Link"
+  },
+  "about_me":{
+    "about_me": "Sobre mí",
+    "des": "Soy un científico de datos especializado en Big Data. Tengo experiencia trabajando con todo el ecosistema de Hadoop, especialmente usando Spark. Tengo experiencia analizando y limpiado datos para luego poder aplicar algoritmos de aprendizaje automático para descubir sus secretos. Me encanta trabjar comunicándome con diferentes equipos para así aprovechar la colaboración para crear soluciones mejores. También soy una persona curiosa a la que le encanta probar nuevas tecnologías y campos de conocimiento para seguir mejorando."
+  },
+  "skills":{
+    "my_skills": "Mis Habilidades"
+  },
+  "projects":{
+    "my_projects": "Mis proyectos",
+    "imbalance": "Repositorio con diferentes funcionalidades que complementan Spark ML trabajando con datos que tienes las clases desbalanceadas.",
+    "uni": "Repositorio con proyectos de programación realizados durante mi Grado en Matemáticas e Informática y mi Máster en Ciencia de Datos.",
+    "contest": "Repositorio con el código entregado en diversos concursos de programación en los que he participado.",
+    "shiny": "Mi primera aplicación realizada en Shiny para probar sus funcionalidades."
+  },
+  "career":{
+    "my_career": "Mi experiencia",
+    "qliro": "Qliro AB, Estocolmo",
+    "qliro_des": "En febrero del 2017, empecé a trabajar en Qliro, una empresa líder en pagos online en los países nórdicos. Formaba parte del equipo de inteligencia empresarial, siendo mi labor principal el desarrollo de programas ETL en Scala para migrar data de MS SQL a Hadoop. Al cabo de unos meses empecé a realizar mi trabajo de fin de máster acerca de detección del fraude en colaboración con el equipo de fraude. El resultado de este trabajo fue un detector automático de fraude desarrollado usando Spark ML que utilizaba algoritmos de aprendizaje automático para ayudar a los investigadores de fraude en su trabajo diario.",
+    "qliro_date": "Feb 2017 - Sep 2017",
+    "qliro_job": "Desarrollador Big Data",
+    "hack": "HackSociety, Bucarest",
+    "hack_des": "En diciembre de 2016 participé en la primera edición del hackatón HackSociety y mi equipo quedo primero en el reto lanzado por la empresa FotoNation. Nuestro programa ganador permitía convertir la pantalla de un ordenador portátil en táctil para dibujar digramas de flujo usando dos cámaras de baja calidad y un lápiz.",
+    "hack_date": "Dic 2016",
+    "hack_job": "Ganador de un hackatón",
+    "kth": "Real Instituto de Tecnología (KTH), Estocolmo",
+    "kth_des": "Desde septiembre del 2016 a agosto del 2017 estuve cursando el segundo año de mi máster en ciencia de datos de EIT Digital. La especialidad de mi programa se realizaba este segundo año en KTH y se centraba en sistemas distribuidos y minería de datos para Big Data.  KTH. Mi trabajo de fin de máster versaba acerca de detección de fraude usando Big Data y fue realizada en colaboración con Qliro AB. También ",
+    "kth_date": "Sep 2016 - Ago 2017",
+    "kth_job": "Estudiante de máster",
+    "summer": "Curso de verano sobre Espacios Inteligentes de EIT, Helsinki",
+    "summer_des": "En agosto del 2016 participé en el curso de verano de EIT sobre espacios inteligentes que tuvo lugar en Helsinki durante dos semanas. Las clases se centraron en enseñarnos a crear planes de negocios alreadedor de los espacios inteligente que resolviesen necesidades reales de los consumidores.",
+    "summer_date": "Ago 2016",
+    "summer_job": "Participante del curso de verano",
+    "indizen": "Indizen, Madrid",
+    "indizen_des": "En mayo del 2016 empecé a trabajar como becario en Indizen en su departamento de Big Data. Estuve involucrado en un proyecto que consistía en analizar datos de redes sociales geolocalizados para detectar noticias en tiempo real y visualizarlas en el mapa de Barcelona. Esto podría ser usado luego como ayuda a periódicos en su proceso de deteción de noticias. Este proyecto fue realizado en Python usando Elasticsearch y Kibana en AWS.",
+    "indizen_date": "May 2016 - Jun 2016",
+    "indizen_job": "Becario de ciencia de datos",
+    "vaciatucasa": "Vaciatucasa, Madrid",
+    "vaciatucasa_des": "En marzo del 2016 desarrollé un sistema de punto de ventas optimizado para realizar mercadillos callejeros para Vaciatucasa.",
+    "vaciatucasa_date": "Mar 2016",
+    "vaciatucasa_job": "Desarrollador independiente",
+    "upm": "Unvisidad Politécnica de Madrid (UPM), Madrid",
+    "upm_des": "En septiembre del 2016, empecé mi máster en ciencia de datos en Madrid como parte del máster de EIT Digital. En este programa tomé cursos básicos acerca de minería de datosm aprendizaje automático y sistemas distribuidos. Una parte importante de los créditos de este programa estaban repartidos en competencias acerca de innovación empresaarial y emprendimiento.",
+    "upm_date": "Sep 2015 - Jun 2016",
+    "upm_job": "Estudiante de máster",
+    "crida": "CRIDA A.I.E., Madrid",
+    "crida_des": "En mayo de 2015 empecé a trabajar en CRIDA como desarrollador en el contexto de proyectos para mejorar el tráfico aéreo europeo. Estaba a cargo de diseñar procesos ETL para introducir en la base de datos de la empresa los datos que se recibían diariamente de diversas fuentes. También realicé analíticas de datos y mantenimiento de la bases de datos. Aparte de eso realicé un programa para dividir audios de torres de control en función de sus silencios.",
+    "crida_date": "May 2015 - Jul 2015",
+    "crida_job": "Becario desarrollador",
+    "ies": "IES Abroad, Madrid",
+    "ies_des": "Desde marzo del 2015 hasta May 2015 estuve dando clases sobre bases de datos a estudiantes americanos.",
+    "ies_date": "Mar 2015 - May 2015",
+    "ies_job": "Profesor particular",
+    "math": "Departamento de Matemáticas Aplicadas en la UPM, Madrid",
+    "math_des": "Desde diciembre del 2014 a marzo del 2015 estuve trabajando como becario en el departamento de Matemáticas Aplicadas desarrollando ContestMaker, auna aplicación gráfica programada en Java, usando Processing, que se usó para realizar concursos multidisciplinarios que fomentaban la colaboración entre estudiantes de diferentes cursos. Estuve también a cargo de reunir todas las preguntas para las distintas ediciones del concurso que eran elaboradas por estudiantes de doce asignaturas diferentes usando una plantilla de Latex y Beamer que había creado para ellos previamente para que se iniciasen en Latex. Los estudiantes obtenían puntos por realizar las preguntas y el equipo ganador obtenía puntos extra.",
+    "math_date": "Dic 2014 - Mar 2015",
+    "math_job": "Becario universitario",
+    "degree": "Universidad Politécnica de Madrid (UPM), Madrid",
+    "degree_des": "Desde septiembre del 2011 hasta julio del 2015 estuve estudiando el Grado en Matemáticas e Informática en la UMP. Este programa hacía incapié en la relación existente entre estas dos disciplinas, proporciando a los estudiantes las herramientas necesarias para resolver múltiples problemas presentes en la industria y diversos campos de investigación científica.",
+    "degree_date": "Sep 2011 - Jul 2015",
+    "degree_job": "Estudiante de Grado"
+  },
+  "publications":{
+    "my_publications": "Mis publicaciones"
+  },
+  "blog":{
+    "my_blog": "Mi blog"
+  },
+  "link":{
+    "link": "Enlance",
+    "view": "Vistas"
+  }
+
+}
