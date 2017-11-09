@@ -13,7 +13,7 @@ author:
   name: 'Ignacio'
   first_name: 'Ignacio'
   last_name: 'Amaya de la Peña'
-  email: 'ignacio.datascientist@gmail.com'
+  email: 'contact@ignacioamaya.com'
   linkedin_username: 'https://www.linkedin.com/in/ignacio-amaya/'
   github_username: 'xinofekuator'
   head_img: 'static/img/landing/picture.png'
@@ -84,7 +84,7 @@ ba:
 
 # google analytics
 ga:
-  # id: UA-73784599-1
+  id: UA-109466441-1
 
 # growingIO
 gio:

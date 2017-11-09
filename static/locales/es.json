@@ -74,7 +74,15 @@
     "degree_job": "Estudiante de Grado"
   },
   "publications":{
-    "my_publications": "Mis publicaciones"
+    "my_publications": "Mis publicaciones",
+    "kth_title": "Fraud detection in online payments using Spark ML",
+    "kth_author": "Amaya de la peña, Ignacio",
+    "kth_data": "Trabajo de fin de máster, Real Instituto de Tecnología (KTH), Estocolmo, Suecia, 2017.",
+    "kth_pdf": "static/pdf/msc_thesis.pdf",
+    "upm_title": "Presencia en Twitter de los candidatos a las elecciones madrileñas de 2015",
+    "upm_author": "Amaya de la peña, Ignacio",
+    "upm_data" : "Trabajo Fin de Grado, E.T.S. de Ingenieros Informáticos (UPM), Madrid, España, 2015.",
+    "upm_pdf": "static/pdf/bsc_thesis.pdf"
   },
   "blog":{
     "my_blog": "Mi blog"
