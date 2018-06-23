@@ -1,4 +1,17 @@
 - name:
+    detail: 
+    i18n: ey
+  desc:
+    detail: 
+    i18n: ey_des
+  date:
+    detail: Feb 2017 - Sep 2017
+    i18n: ey_date
+  job:
+    detail: 
+    i18n: ey_job
+  icon: fa-search
+- name:
     detail: Qliro AB, Stockholm
     i18n: qliro
   desc:

@@ -28,6 +28,10 @@
   },
   "career":{
     "my_career": "My Career",
+    "ey": "EY, Madrid",
+    "ey_des": "In January 2018, I started working at the Wavespace innovation center in Madrid as a data scientist and data engineer. Most of my work has been building the data infraestructure for a multi-national investment company based in UK in order to move all the company's decion making data into a Big Data cluster that will give them competive advantage in their sector and make them leaders in their market. I have also participated in smaller projects building chatbots for the banking sector.",
+    "ey_date": "Jan 2018 - Currently",
+    "ey_job": "Data Engineer Consultant",
     "qliro": "Qliro AB, Stockholm",
     "qliro_des": "In February 2017, I started working at Qliro, a leader online payments provider in the Nordics. I was part of the BI team and my main job consited in creating ETL jobs in Scala for migrating data from MS SQL to Hadoop. After some months working there I started to carry on my master thesis about fraud detection in collaboration with the fraud team. The outcome of this project was an automatic fraud detection system developed using Spark ML that leveraged machine learning algorithms to ease the work of the fraud investigators.",
     "qliro_date": "Feb 2017 - Sep 2017",

@@ -1,6 +1,6 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": "Ignacio's blog"
   },
   "nav":{
     "home": "Inicio",
@@ -14,7 +14,7 @@
   },
   "about_me":{
     "about_me": "Sobre mí",
-    "des": "Soy un científico de datos especializado en Big Data. Tengo experiencia trabajando con todo el ecosistema de Hadoop, especialmente usando Spark. Tengo experiencia analizando y limpiado datos para luego poder aplicar algoritmos de aprendizaje automático para descubir sus secretos. Me encanta trabajar comunicándome con diferentes equipos para así aprovechar la colaboración para crear soluciones mejores. También soy una persona curiosa a la que le encanta probar nuevas tecnologías y campos de conocimiento para seguir mejorando."
+    "des": "Soy un matemático e informático especializado en Data Science y Big Data. Tengo experiencia trabajando en proyectos que usan una gran variedad de componentes del ecosistema de Hadoop usando HDP. Me encanta trabajar con equipos multidisciplinares para mediante la colaboración y la comunicación crear las mejores soluciones eficientemente. También soy muy curioso y me encanta aprender a usar nuevas tecnologías y mantener al día en mi campo para poder aplicar los últimos avances en mi día a día."
   },
   "skills":{
     "my_skills": "Mis Habilidades"
@@ -28,6 +28,10 @@
   },
   "career":{
     "my_career": "Mi experiencia",
+    "ey": "EY, Madrid",
+    "ey_des": "En enero del 2018, empecé a trabajar en el departamento de innovación Wavespace de Madrid como data engineer. La mayor parte de mi trabajo se ha centrado en un proyecto para una empresa de inversiones internacional realizando su infraestructura de Big Data para poder revolucionar la industria y convertir a esta empresa en líderes en su sector gracias a una infraestructura eficiente y segura que les permita tomar mejores decisiones. También he participado en otros proyectos menores, donde he desarrolado chatbots para el sector banca.",
+    "ey_date": "Ene 2018 - Actualmente",
+    "ey_job": "Consultor",
     "qliro": "Qliro AB, Estocolmo",
     "qliro_des": "En febrero del 2017, empecé a trabajar en Qliro, una empresa líder en pagos online en los países nórdicos. Formaba parte del equipo de inteligencia empresarial, siendo mi labor principal el desarrollo de programas ETL en Scala para migrar data de MS SQL a Hadoop. Al cabo de unos meses empecé a realizar mi trabajo de fin de máster acerca de detección del fraude en colaboración con el equipo de fraude. El resultado de este trabajo fue un detector automático de fraude desarrollado usando Spark ML que utilizaba algoritmos de aprendizaje automático para ayudar a los investigadores de fraude en su trabajo diario.",
     "qliro_date": "Feb 2017 - Sep 2017",
