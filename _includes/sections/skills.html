@@ -14,13 +14,6 @@
       <p><a href="{{ 'static/pdf/Ignacio_Amaya_CV.pdf' | prepend: site.baseurl }}">Curriculum Vitae</i></a></p>
   </div>
 
-    <!-- Comptetences -->
-    <div class="row">
-        <div class="col-lg-12 text-center" id="i18_skills">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="skills.my_skills">Competences</span></h1>
-        </div>
-    </div>
     <div class="row features-block">
         <div class="wow zoomIn col-lg-6 col-lg-offset-3">
             <canvas id="{{ site.data.skills.id }}" height="500" width="500"></canvas>
@@ -57,45 +50,5 @@
         });
         </script>
     </div>
-
-    <!-- Programming languages -->
-    <div class="row">
-    <div class="col-lg-6 text-center">
-      <h1><span data-i18n="skills.my_skills">Programming languages</span></h1>
-    </div>
-    <div class="col-lg-6 text-center">
-      <h1><span data-i18n="skills.my_skills">Other skills</span></h1>
-    </div>
-  </div>    
-  <div class="row features-block">
-    {% for skill in site.data.skills.languages %}
-    {% assign loopindex = forloop.index | modulo: 2 %}
-    {% if loopindex == 1 %}
-    <div class="row">
-      <div class="col-lg-2 wow fadeInLeft">
-        <p>{{ skill.name }}</p>
-      </div>
-      <div class="col-lg-4 wow fadeInLeft">
-        <div class="progress progress-bar-default">
-          <div style="width: {{ skill.percentage }}%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="{{ skill.percentage }}" role="progressbar" class="progress-bar">
-          </div>
-        </div>
-      </div>
-      {% else %}
-      <div class="col-lg-2 wow fadeInRight">
-        <p>{{ skill.name }}</p>
-      </div>
-      <div class="col-lg-4 wow fadeInRight">
-        <div class="progress progress-bar-default">
-          <div style="width: {{ skill.percentage }}%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="{{ skill.percentage }}" role="progressbar" class="progress-bar">
-          </div>
-        </div>
-      </div>
-    </div>
-    <br>
-    {% endif %}
-    {% endfor %}
-  </div>
-
 </div>
 
