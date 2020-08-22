@@ -96,19 +96,19 @@
     i18n: indizen_job
   icon: fa-search
 
-# - name:
-#     detail: Freelance job for Vaciatucasa, Madrid
-#     i18n: vaciatucasa
-#   desc:
-#     detail: In March 2016 I developed a Point of Sale sofware program for Vaciatucasa. This company needed a simple POS system to enable street market sells.
-#     i18n: vaciatucasa_des
-#   date:
-#     detail: Mar 2016
-#     i18n: vaciatucasa_date
-#   job:
-#     detail: Freelancer
-#     i18n: vaciatucasa_job
-#   icon: fa-search
+- name:
+    detail: Freelance job for Vaciatucasa, Madrid
+    i18n: vaciatucasa
+  desc:
+    detail: In March 2016 I developed a Point of Sale sofware program for Vaciatucasa. This company needed a simple POS system to enable street market sells.
+    i18n: vaciatucasa_des
+  date:
+    detail: Mar 2016
+    i18n: vaciatucasa_date
+  job:
+    detail: Freelancer
+    i18n: vaciatucasa_job
+  icon: fa-search
 
 - name:
     detail: Master Student at UPM, Madrid
