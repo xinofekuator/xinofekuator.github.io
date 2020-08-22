@@ -1,41 +1,43 @@
-- name: Python (scikit-learn, pandas, tensorflow)
-  percentage: 95
+# skills section data
 
-- name: Java
-  percentage: 95
+label: Ability
+id : cs
+aspects: Programming|Big Data|Machine Learning|Cloud computing|Leadership|Communication skills|Busines Intelligence
+percentage: 90, 75, 85, 75, 65, 80, 50 
+# even ones are languages and odd ones are big data skills
+languages:
+  - name: Python
+    percentage: 95
 
-- name: Spark ML
-  percentage: 95
+  - name: Spark & Spark ML
+    percentage: 95
 
-- name: Scala
-  percentage: 85
+  - name: SQL
+    percentage: 90
 
-- name: H2O
-  percentage: 85
+  - name: Scikit-learn & Pandas
+    percentage: 90
+    
+  - name: Bash
+    percentage: 75
 
-- name: Hadoop
-  percentage: 85
+  - name: AWS
+    percentage: 80
 
-- name: MATLAB
-  percentage: 85
+  - name: Java
+    percentage: 75
 
-- name: Spark
-  percentage: 75
+  - name: Hive & Presto
+    percentage: 75
 
-- name: R
-  percentage: 75
+  - name: Scala
+    percentage: 70
 
-- name: Oozie
-  percentage: 75
+  - name: Azure
+    percentage: 70
 
-- name: AWS
-  percentage: 75
+  - name: R
+    percentage: 35
 
-- name: Sqoop
-  percentage: 75
-
-- name: Elastic Stack
-  percentage: 75
-
-- name: Linux/Unix
-  percentage: 75
+  - name: Elastic Stack
+    percentage: 35
