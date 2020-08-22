@@ -14,7 +14,7 @@
   },
   "about_me":{
     "about_me": "Sobre mí",
-    "des": "Soy un matemático e informático especializado en Data Science y Big Data. Tengo experiencia trabajando en proyectos que usan una gran variedad de componentes del ecosistema de Hadoop usando HDP. Me encanta trabajar con equipos multidisciplinares para mediante la colaboración y la comunicación crear las mejores soluciones eficientemente. También soy muy curioso y me encanta aprender a usar nuevas tecnologías y mantener al día en mi campo para poder aplicar los últimos avances en mi día a día."
+    "des": "Soy un científico de datos con competencias altas en ingeniería de datos. He trabaado durante más de 2 años en el sector financiero revolucionando la industria con soluciones de analítica de datos innovadoras. En conjunto, tengo más de 5 años de experiencia trabajando en projectos de Machine Learning y Big Data."
   },
   "skills":{
     "my_skills": "Mis Habilidades"
@@ -28,9 +28,13 @@
   },
   "career":{
     "my_career": "Mi experiencia",
+    "rovio": "Rovio, Helsinki",
+    "rovio_des": "En agosto de 2019, comencé a trabajar en Rovio. Mi rol involucra crear modelos de aprendizaje automático y ponerlos en producción para que los equipos de juegos en Rovio los utilicen.",
+    "rovio_date": "Ago 2019 - Actualmente",
+    "rovio_job": "Ingeniero de Machine Learning",
     "ey": "EY, Madrid",
-    "ey_des": "En enero del 2018, empecé a trabajar en el departamento de innovación Wavespace de Madrid como data engineer. La mayor parte de mi trabajo se ha centrado en un proyecto para una empresa de inversiones internacional realizando su infraestructura de Big Data para poder revolucionar la industria y convertir a esta empresa en líderes en su sector gracias a una infraestructura eficiente y segura que les permita tomar mejores decisiones. También he participado en otros proyectos menores, donde he desarrolado chatbots para el sector banca.",
-    "ey_date": "Ene 2018 - Actualmente",
+    "ey_des": "En enero del 2018, empecé a trabajar en el departamento de innovación Wavespace de Madrid como data engineer. He participado en un proyecto para una empresa de inversiones internacional realizando su infraestructura de Big Data para poder revolucionar la industria y convertir a esta empresa en líderes en su sector gracias a una infraestructura eficiente y segura que les permita tomar mejores decisiones. En julio de 2019 me ascendieron a consultor senior y empecé a dirigir un equipo para crear un servicio que extrajese automáticamente información de imágenes de facturas y recibos para una empresa de seguros líder del sector en los países nórdicos usando ORC, Machine Learning, Deep Learning, Docker y Kubernetes.",
+    "ey_date": "Ene 2018 - Ago 2019",
     "ey_job": "Consultor",
     "qliro": "Qliro AB, Estocolmo",
     "qliro_des": "En febrero del 2017, empecé a trabajar en Qliro, una empresa líder en pagos online en los países nórdicos. Formaba parte del equipo de inteligencia empresarial, siendo mi labor principal el desarrollo de programas ETL en Scala para migrar data de MS SQL a Hadoop. Al cabo de unos meses empecé a realizar mi trabajo de fin de máster acerca de detección del fraude en colaboración con el equipo de fraude. El resultado de este trabajo fue un detector automático de fraude desarrollado usando Spark ML que utilizaba algoritmos de aprendizaje automático para ayudar a los investigadores de fraude en su trabajo diario.",

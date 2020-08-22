@@ -1,5 +1,19 @@
 - name:
     detail: 
+    i18n: rovio
+  desc:
+    detail: 
+    i18n: rovio_des
+  date:
+    detail: Aug 2019 - Now
+    i18n: rovio_date
+  job:
+    detail: 
+    i18n: rovio_job
+  icon: fa-gamepad
+
+- name:
+    detail: 
     i18n: ey
   desc:
     detail: 
@@ -10,7 +24,8 @@
   job:
     detail: 
     i18n: ey_job
-  icon: fa-search
+  icon: fa-line-chart
+
 - name:
     detail: Qliro AB, Stockholm
     i18n: qliro
