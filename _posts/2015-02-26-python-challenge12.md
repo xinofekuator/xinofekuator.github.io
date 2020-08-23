@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Python challenge 12"
+title:  "Python test"
 date:   2015-02-26
 desc: "Python challenge"
 keywords: "Python,challenge"
@@ -9,22 +9,25 @@ tags: [Python,Challenge]
 icon: fa-code
 ---
 
-Python challenge好像荒废很久了，今天把challenge 12补上。
-第十二题地址为:<http://www.pythonchallenge.com/pc/return/evil.html>
+# Header
 
-打开网址，发现是一张图片很模糊，本以为还是图片处理的思路，查看网页标题和网页代码也没找到相关信息。但是在整个源代码中仔细观察会发现src是evil1.jpg，既然有1，那么是否会有2、3、4甚至更多的图呢？尝试打开：
-<http://www.pythonchallenge.com/pc/return/evil1.jpg>是网页,
-<http://www.pythonchallenge.com/pc/return/evil2.jpg>是下面的图片：
+## sub header
 
-![evil2]({{ site.img_path }}/python_challenge12/evil2.jpg)
 
-打开网址：<http://www.pythonchallenge.com/pc/return/evil2.gfx> 发现是一个二进制文档，还是没什么头绪
-继续打开<http://www.pythonchallenge.com/pc/return/evil3.jpg> 是下面的图片：
+Here it goes some content
 
-![evil3-1]({{ site.img_path }}/python_challenge12/evil3-1.jpg)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum nibh convallis varius lobortis. Proin ut odio vitae orci tempus convallis non et risus. Proin erat leo, iaculis sed quam et, sollicitudin volutpat erat. Proin condimentum urna viverra hendrerit egestas. Duis in nulla magna. Pellentesque id sem id tellus iaculis lacinia sed ac eros. In hac habitasse platea dictumst. Quisque at arcu at augue faucibus scelerisque. In fermentum risus leo, id blandit ante tempus eget. Vivamus vel massa id tellus pretium fringilla eu vitae sem. Fusce ut dolor a erat finibus consequat a non felis. Nam diam orci, convallis eu lacus vel, tempor finibus massa.
 
-看样子是没有图片了，但是打开<http://www.pythonchallenge.com/pc/return/evil4.jpg> 看到如下语句：**Bert is evil! go back!**，在chrome浏览器是看不到的，我是在IE浏览器上看到。
-回想网页开始的图片，是在均分扑克牌，这应该就是解题的思路了，那么代码很简单了，如下：
+```
+val a = 3
+```
+
+[One link here](http://ignacioamaya.com/)
+
+In pellentesque, mi et dapibus mollis, arcu felis eleifend lacus, mollis porta nibh diam a lorem. Sed aliquet interdum ante vitae convallis. Praesent consequat tincidunt est et consectetur. Morbi mi mi, feugiat sed congue non, pulvinar tincidunt tellus. Integer dolor neque, blandit in arcu imperdiet, interdum ultrices dui. Phasellus suscipit a magna ac ultrices. Donec vulputate turpis ut lectus mollis, vitae posuere odio ultricies. Vivamus dictum tellus et urna varius semper.
+
+Praesent lectus mauris, convallis vel congue ac, scelerisque vel lorem. Proin luctus, justo interdum auctor sagittis, felis tellus eleifend arcu, a sagittis tellus lectus sed nisi. Etiam nec sem orci. Ut velit lorem, commodo eleifend bibendum sit amet, finibus sed massa. Nunc blandit pharetra sollicitudin. Pellentesque sit amet aliquam arcu, id gravida ipsum. Etiam et tellus consequat, imperdiet leo a, bibendum purus. Phasellus blandit nulla est, vitae facilisis diam sagittis at. Vestibulum a rhoncus dolor, quis sagittis orci. Sed sodales bibendum magna, at imperdiet nisl pharetra vel. In sit amet tristique erat. Curabitur nulla risus, rutrum a vehicula id, sodales ut mi. Duis ultricies arcu vulputate urna rhoncus dapibus. Fusce scelerisque egestas lobortis. Sed tincidunt urna nisl, nec placerat ipsum egestas vel. Nullam sit amet sapien urna.
+
 
 ``` python
 #!/usr/bin/env python
@@ -38,17 +41,3 @@ for i in range(5):
     f.write(text[i::5])
     f.close()
 ```
-
-得到如下图片：
-
-![0]({{ site.img_path }}/python_challenge12/0.jpg)
-
-![1]({{ site.img_path }}/python_challenge12/1.png)
-
-![2]({{ site.img_path }}/python_challenge12/2.gif)
-
-![3]({{ site.img_path }}/python_challenge12/3.png)
-
-![4]({{ site.img_path }}/python_challenge12/4.jpg)
-
-最后一张图片的字母划掉了，所以答案是：**disproportional**

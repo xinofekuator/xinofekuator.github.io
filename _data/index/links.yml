@@ -1,0 +1,18 @@
+# links section data
+- last_name: Linkedin
+  first_name: profile
+  desc: More information about me in my Linkedin page.
+  website: https://www.linkedin.com/in/ignacio-amaya/
+  email: contact@ignacioamaya.com
+
+- last_name: UNICEF 
+  first_name: Video
+  desc: Classroom Series with UNICEF Finland E04 featuring Ignacio Amaya - What is data?
+  website: https://www.youtube.com/watch?v=xORrvAl9E-A&feature=youtu.be
+  email: contact@ignacioamaya.com
+
+- last_name: Employee story
+  first_name: Rovio
+  desc: Employee story.
+  website: https://www.rovio.com/articles/employee-story-ignacio-amaya/
+  email: contact@ignacioamaya.com

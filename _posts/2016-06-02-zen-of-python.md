@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "神奇的Python"
+title:  "Python Zen"
 desc: "Zen of Python"
-keywords: "zen,python,this,Python之禅"
+keywords: "zen,python,this,Python"
 date:   2016-06-02
 categories: [Python, Life]
 tags: [Python]
 icon: icon-python
 ---
 
-今天在Python中发现一个神奇的功能，在Python shell中输入`import this`，有如下展示：
 
 ```
 The Zen of Python, by Tim Peters
@@ -34,5 +33,3 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 ```
-
-原来这就是Python之禅，哈哈

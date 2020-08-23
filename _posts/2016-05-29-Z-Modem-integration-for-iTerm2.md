@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "使用iTerm2上传下载文件"
-desc: "在Mac上使用iTerm2确实让Linux终端操作方便的很多，加上[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)这个强大shell的利器，敲命令就像滚键盘一样。"
+title:  "Mac"
+desc: "[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)这个强大shell的利器，敲命令就像滚键盘一样。"
 keywords: "iterm,mac,lrzsz,oh-my-zsh"
 date:   2016-05-29
 categories: [Mac]
@@ -9,11 +9,6 @@ tags: [Mac]
 icon: fa-apple
 ---
 
-在Mac上使用iTerm2确实让Linux终端操作方便的很多，加上[oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)这个强大shell的利器，敲命令就像滚键盘一样。
-
-但是iTerm2没有对文件上传下载进行支持，这个是要比secureCRT弱的地方，不过我们总有办法能够解决，因为iTerm2足够强大，下面是利用rz/sz工具来实现文件上传下载的方法：
-
-在Mac电脑上安装rz/sz：`brew install lrzsz`
 
 ``` shell
 #!/usr/bin/env bash
@@ -126,15 +121,4 @@ $SRC"
 fi
 ```
 
-首先将这个脚本写到/usr/local/bin/iterm2-zmodem文件下，给它可执行权限`chmod +x /usr/local/bin/iterm2/zmodem`，这个脚本是在Linux终端使用rz/sz时调用的，需要由iTerm2触发，在iTerm2->Preferences...->Profiles->Advanced下的Triggers，点击Edit进入编辑。加入如下配置即可：
-
-```
-Regular expression: \*\*B0100
-Action:             Run Coprocess
-Parameters:         /usr/local/bin/iterm2-zmodem sz
-
-Regular expression: \*\*B00000000000000
-Action:             Run Coprocess
-Parameters:         /usr/local/bin/iterm2-zmodem rz
-```
-Github链接：<https://github.com/Jack614/iterm2-zmodem>
+Github：<https://github.com/Jack614/iterm2-zmodem>

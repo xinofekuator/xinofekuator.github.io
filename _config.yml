@@ -59,12 +59,15 @@ languages:
     flag: 'static/img/flags/Spain.png'
 
 # blog img path
-img_path: 'http://www.jack003.com/static/img/blog'
+img_path: 'http://ignacioamaya.com/static/img/blog'
 
 # donate
 donate:
   wechat: 'static/img/pay/wechat.png'
   alipay: 'static/img/pay/alipay.png'
+
+## donation
+donation: off  # type 'on'/'off' to choice display donation button at post page or not
 
 # comment
 changyan:

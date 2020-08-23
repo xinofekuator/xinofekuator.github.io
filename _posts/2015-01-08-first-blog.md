@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "我的第一篇博客"
-desc: "我的第一篇jekyll博客"
+title:  "My life test"
+desc: "Testing my life"
 keywords: "jekyll,blog,first"
 date: 2015-01-08
 categories: [Life]
@@ -9,14 +9,16 @@ tags: [blog]
 icon: fa-bookmark-o
 ---
 
-喜欢写Blog的人，会经历三个阶段。
+Here it goes some content
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum nibh convallis varius lobortis. Proin ut odio vitae orci tempus convallis non et risus. Proin erat leo, iaculis sed quam et, sollicitudin volutpat erat. Proin condimentum urna viverra hendrerit egestas. Duis in nulla magna. Pellentesque id sem id tellus iaculis lacinia sed ac eros. In hac habitasse platea dictumst. Quisque at arcu at augue faucibus scelerisque. In fermentum risus leo, id blandit ante tempus eget. Vivamus vel massa id tellus pretium fringilla eu vitae sem. Fusce ut dolor a erat finibus consequat a non felis. Nam diam orci, convallis eu lacus vel, tempor finibus massa.
 
 ```
-第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。
-第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。
-第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。
+val a = 3
 ```
 
-转自[阮一峰](http://www.ruanyifeng.com/)的博文。
+[One link here](http://ignacioamaya.com/)
 
-从第一份运维工作开始，就开始写笔记，有用过印象笔记，有道云笔记，gist，后来也开始写博客，那时候是在CSDN上面注册了一个账号，写了有几个月见见的也荒废了；再后来，想自己搞个云主机，在[阿里云](http://aliyun.com)上租了一台主机，一个月￥60，先是用wordpress，感觉可定制功能不强，因为是PHP写的，个人主要学习Python，所以感觉自己用Django写了一个博客，在15年双十一，云主机降价，花了一半的价钱（￥200）在美团云上买了一台1C、1G、1MB带宽的主机，至此也了解了阿里云和美团云的一些不同之处，美团云主打的是纯净的系统，而阿里云应用市场比较丰富。现在准备把自己的博客迁移到[github](http://github.com)上，在学习了markdown入门和jekyll基础后，目前博客已经初步成立，同时完善了我的一些文章，希望今后能够勤写文章。
+In pellentesque, mi et dapibus mollis, arcu felis eleifend lacus, mollis porta nibh diam a lorem. Sed aliquet interdum ante vitae convallis. Praesent consequat tincidunt est et consectetur. Morbi mi mi, feugiat sed congue non, pulvinar tincidunt tellus. Integer dolor neque, blandit in arcu imperdiet, interdum ultrices dui. Phasellus suscipit a magna ac ultrices. Donec vulputate turpis ut lectus mollis, vitae posuere odio ultricies. Vivamus dictum tellus et urna varius semper.
+
+Praesent lectus mauris, convallis vel congue ac, scelerisque vel lorem. Proin luctus, justo interdum auctor sagittis, felis tellus eleifend arcu, a sagittis tellus lectus sed nisi. Etiam nec sem orci. Ut velit lorem, commodo eleifend bibendum sit amet, finibus sed massa. Nunc blandit pharetra sollicitudin. Pellentesque sit amet aliquam arcu, id gravida ipsum. Etiam et tellus consequat, imperdiet leo a, bibendum purus. Phasellus blandit nulla est, vitae facilisis diam sagittis at. Vestibulum a rhoncus dolor, quis sagittis orci. Sed sodales bibendum magna, at imperdiet nisl pharetra vel. In sit amet tristique erat. Curabitur nulla risus, rutrum a vehicula id, sodales ut mi. Duis ultricies arcu vulputate urna rhoncus dapibus. Fusce scelerisque egestas lobortis. Sed tincidunt urna nisl, nec placerat ipsum egestas vel. Nullam sit amet sapien urna.
