@@ -9,10 +9,12 @@ $(function(){
             ( "collapse " + this.className ) : this.className.replace("collapse ", "");
     });
     
+
+    // Commenting due to error
     /* apply code highlight */
-    $('pre code').each( function(i, e) {
-        hljs.highlightBlock(e, '    ');
-    });
+    // $('pre code').each( function(i, e) {
+    //     hljs.highlightBlock(e, '    ');
+    // });
 
 });
 
