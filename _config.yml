@@ -51,6 +51,12 @@ sections:
     tpl: 'publications.html'
     css: 'publications'
 
+  - id: 'blog'
+    i18n: 'nav.blog'
+    name: 'Blog'
+    tpl: 'blog.html'
+    css: 'testimonials navy-section'
+
 # localization
 languages:
   - locale: 'en'
