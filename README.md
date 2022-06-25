@@ -93,3 +93,8 @@ Some useful icons are:
 ### Scheduling a blog post
 
 Blog posts with a date in the future won't appear in the blog post list, so this can be used to add content that will only show in the page in the future.
+
+## Using personal access tokens
+
+- Disable your global git config in case of conflict: `git config --local credential.helper ""`
+- Introduce your username and [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) previously created in Github
