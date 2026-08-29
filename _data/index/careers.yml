@@ -1,36 +1,22 @@
 - name:
     detail: Rovio, Helsinki
-    i18n: rovio_ai
+    i18n: rovio
   desc:
-    detail: Leading Rovio's AI Lab, dedicated to prototyping and validating high-impact generative AI and ML solutions for game development. Driving the AI strategy, defining the technical roadmap, and fostering adoption of AI across the company.
-    i18n: rovio_ai_des
+    detail: "Leading Rovio's AI Lab, building high-impact generative AI and ML solutions for games. Previously led the ML team across Personalization, Ads and User Acquisition, grew to Principal ML Engineer, and drove the AI strategy, governance and genAI tooling."
+    i18n: rovio_des
   date:
-    detail: Apr 2026 - Present
-    i18n: rovio_ai_date
+    detail: Aug 2019 - Present
+    i18n: rovio_date
   job:
-    detail: Senior Manager, AI Lab
-    i18n: rovio_ai_job
+    detail: Senior Manager, AI Lab · Principal ML Engineer
+    i18n: rovio_job
   icon: fa-gamepad
-
-- name:
-    detail: Rovio, Helsinki
-    i18n: rovio_lead
-  desc:
-    detail: Progressed from Machine Learning Engineer to Principal ML Engineer, leading Rovio's ML engineering team across Personalization, Ads and User Acquisition. Spearheaded the AI strategy and governance, and led the design of generative AI tools, LLM and agentic systems for creative teams.
-    i18n: rovio_lead_des
-  date:
-    detail: Aug 2019 - Apr 2026
-    i18n: rovio_lead_date
-  job:
-    detail: Principal ML Engineer, Team Manager
-    i18n: rovio_lead_job
-  icon: fa-line-chart
 
 - name:
     detail: EY, Madrid
     i18n: ey
   desc:
-    detail: Led and delivered AI and data engineering projects for financial and insurance clients, directing multidisciplinary teams from concept to production. Built OCR and deep learning systems for automated document understanding and helped clients deploy Big Data and cloud platforms.
+    detail: "Led AI and data engineering projects for financial and insurance clients, from concept to production. Built OCR and deep learning systems for document understanding, and deployed Big Data and cloud platforms."
     i18n: ey_des
   date:
     detail: Jan 2018 - Aug 2019
@@ -44,7 +30,7 @@
     detail: Qliro AB, Stockholm
     i18n: qliro
   desc:
-    detail: Created Scala-based ETL pipelines to migrate large datasets from SQL to Hadoop and developed fraud detection models using Spark ML, while contributing to the company's data infrastructure modernization initiative.
+    detail: "Built Scala-based ETL pipelines migrating data from SQL to Hadoop and fraud detection models with Spark ML, the basis of my master's thesis."
     i18n: qliro_des
   date:
     detail: Feb 2017 - Sep 2017
@@ -52,88 +38,18 @@
   job:
     detail: Big Data Developer
     i18n: qliro_job
-  icon: fa-search
+  icon: fa-credit-card
 
 - name:
-    detail: Master Student at KTH, Stockholm
-    i18n: kth
+    detail: Education & early career
+    i18n: education
   desc:
-    detail: From September 2016 to August 2017 I was doing my EIT Digital Data Science Master specialization in Distributed Systems and Data Mining for Really Big Data at KTH. I wrote a master thesis about fraud detection using Big Data in collaboration with Qliro and a minor thesis about business regarding a competitive analysis of BI tools.
-    i18n: kth_des
+    detail: "BSc in Mathematics & Informatics (UPM) and a double-degree Data Science MSc (UPM & KTH). Early experience: intern at CRIDA and Indizen, freelance for Vaciatucasa."
+    i18n: education_des
   date:
-    detail: Sep 2016 - Aug 2017
-    i18n: kth_date
+    detail: Sep 2011 - Aug 2017
+    i18n: education_date
   job:
-    detail: MSc student
-    i18n: kth_job
-  icon: fa-book
-
-- name:
-    detail: Indizen, Madrid
-    i18n: indizen
-  desc:
-    detail: In May 2016, I started an Internship with Indizen as part of its Big Data department. I was involved in a project that consisted in analyzing geolocated social media data to detect news happening in real time and visualize them in a map of Barcelona.
-    i18n: indizen_des
-  date:
-    detail: May 2016 - Jun 2016
-    i18n: indizen_date
-  job:
-    detail: Data Science Intern
-    i18n: indizen_job
-  icon: fa-search
-
-- name:
-    detail: Vaciatucasa, Madrid
-    i18n: vaciatucasa
-  desc:
-    detail: In March 2016 I developed a Point of Sale software program for Vaciatucasa. This company needed a simple POS system to enable street market sells.
-    i18n: vaciatucasa_des
-  date:
-    detail: Mar 2016
-    i18n: vaciatucasa_date
-  job:
-    detail: Freelancer
-    i18n: vaciatucasa_job
-  icon: fa-search
-
-- name:
-    detail: Master Student at UPM, Madrid
-    i18n: upm
-  desc:
-    detail: In September 2016, I started my Data Science master in Madrid as part of the EIT Digital double degree program. Here I took basic courses about data mining, machine learning and distributed systems.
-    i18n: upm_des
-  date:
-    detail: Sep 2015 - Jun 2016
-    i18n: upm_date
-  job:
-    detail: MSc student
-    i18n: upm_job
-  icon: fa-search
-
-- name:
-    detail: CRIDA A.I.E., Madrid
-    i18n: crida
-  desc:
-    detail: In May 2015 I started working at CRIDA as a developer in the context of European Air Traffic Control projects. I was in charge of designing ETL processes to load raw sources received daily into the company database.
-    i18n: crida_des
-  date:
-    detail: May 2015 - Jul 2015
-    i18n: crida_date
-  job:
-    detail: Developer Intern
-    i18n: crida_job
-  icon: fa-search
-
-- name:
-    detail: Undergraduate Student at UPM, Madrid
-    i18n: degree
-  desc:
-    detail: From September 2011 to July 2015 I was pursuing my Bachelor in Mathematics and Informatics. This program focused in the interrelationship between the two disciplines, giving the students the necessary tools to solve problems in multiple scientific, technological and business fields.
-    i18n: degree_des
-  date:
-    detail: Sep 2011 - Jul 2015
-    i18n: degree_date
-  job:
-    detail: BSc Student
-    i18n: degree_job
-  icon: fa-search
+    detail: BSc Mathematics & Informatics (UPM) · MSc Data Science (UPM & KTH) · Internships
+    i18n: education_job
+  icon: fa-graduation-cap

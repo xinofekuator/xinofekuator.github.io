@@ -8,12 +8,10 @@ $(document).ready(function() {
   var translate = function() {
     $('.i18container').i18n();
     $('#i18_navbar').i18n();
-    $('#i18_about_me').i18n();
     $('#i18_skills').i18n();
     $('#i18_career').i18n();
     $('#i18_blog').i18n();
     $('#i18_link').i18n();
-    $('#i18_publications').i18n();
   };
 
   $("[id^=set_lang]").each(function() {

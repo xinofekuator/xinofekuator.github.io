@@ -8,9 +8,12 @@
   <meta name="author" content="{{ site.author.name }}">
   <title>{{ site.title }}</title>
   <!-- favicon -->
-  <link rel="shortcut icon" href="{{ "static/img/favicon.ico" | relative_url }}">
+  <link rel="shortcut icon" href="{{ "static/img/favicon.png" | relative_url }}">
 
   <!-- Third-party CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="{{"bower_components/normalize-css/normalize.min.css" | relative_url }}" rel="stylesheet">
   <link href="{{"bower_components/bootstrap/dist/css/bootstrap.min.css" | relative_url }}" rel="stylesheet">
   <link href="{{"bower_components/animate.css/animate.min.css"| relative_url }}" rel="stylesheet">
@@ -21,6 +24,12 @@
   <!-- Custom styles for this template -->
   <!-- <link href="{{"static/css/pygments.css"| relative_url }}" rel="stylesheet"> -->
   <link href="{{"static/css/style.min.css"| relative_url }}" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Inter', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+  </style>
 
   <!-- Third-party scripts -->
   <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
