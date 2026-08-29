@@ -1,12 +1,9 @@
 # AGENTS.md
 
-Jekyll 4.4.1 personal site (Ignacio Amaya). Default branch `master`, GitHub Pages, SSH remote. gh requires `source ~/.zshrc`.
+Jekyll 4.4.1 personal site (Ignacio Amaya). Default branch `master`, GitHub Pages, SSH remote.
 
 ## Build
-```sh
-export PATH="/opt/homebrew/opt/ruby/bin:/opt/homebrew/bin:/opt/homebrew/lib/ruby/gems/4.0.0/bin:$PATH"
-jekyll build
-```
+Run `jekyll build` directly (environment already set up; no PATH export needed).
 Note `.jekyll-cache` can go stale — use `jekyll clean` before rebuilding if output looks old.
 
 ## Architecture
@@ -22,12 +19,9 @@ Note `.jekyll-cache` can go stale — use `jekyll clean` before rebuilding if ou
 - Accent color `#3385FF`; body base 13px; section content text ~15px for readability.
 - Hero on index: navy gradient + circular portrait (`static/img/landing/me.jpeg`, 800×800). Social circles use `.hero-social.list-inline a` to beat the theme.
 - About & Publications sections were deleted (hero covers About; defunct). Career = 4 blocks (rovio/ey/qliro/education), single-sided timeline, company + dates outside cards, description inside. Skills = icon chips (font-mfizz + FontAwesome 4.7, verified against shipped fonts). Links = 4 `col-sm-3` cards, icon circles bottom-aligned via flex; GDC/re:Invent/UNICEF/Rovio stories.
-- Blog/posts: leave untouched.
 
 ## Commit / PR flow
 - Feature branch → short single commit → `git push -u origin <branch>` → `gh pr create --base master`.
-- GitHub auto-deletes remote branch on merge; delete feature branch locally after.
-- Commit author shows `los-ibericos` (user's GitHub email `xinofekuator@gmail.com` is registered to that account) — known/accepted.
 
 ## Gotchas
 - YAML: colon+space inside an unquoted scalar breaks parsing — quote the value.
