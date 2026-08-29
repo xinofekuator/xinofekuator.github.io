@@ -11,25 +11,33 @@ Inspired in other webpages built with Jalpc, such as:
 
 ### Local setup
 
+Install Ruby with Homebrew:
+
 `brew install ruby`
 
-Add to your `.zshrc` this:
+Add to your `.zshrc` this (use `/opt/homebrew` on Apple Silicon / ARM Macs, `/usr/local` on Intel Macs):
 
 ```
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/ruby/lib"
-export CPPFLAGS="-I/usr/local/opt/ruby/include"
-export PKG_CONFIG_PATH="/usr/local/opt/ruby/lib/pkgconfig"
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/ruby/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/ruby/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/ruby/lib/pkgconfig"
 ```
 
-To fix issues with  libffi reinstall it `brew reinstall libffi`
-To install jekyll:
+Note: macOS ships an old system Ruby in `/usr/bin` that shadows Homebrew's (`ruby 2.6` is too old for current Jekyll). Make sure the Homebrew prefix comes first in your `PATH`.
+
+Install bundler and jekyll (no `sudo` needed):
+
 ```
-sudo gem install bundler
-sudo gem install -n /usr/local/bin/ jekyll
+gem install bundler
+gem install jekyll webrick
 ```
 
-Finally, install github pages extension: `gem install github-pages`
+`webrick` is required for `jekyll serve` on Ruby >= 3.
+
+Finally, install the github pages extension: `gem install github-pages`
+
+If libffi causes issues, reinstall it with `brew reinstall libffi`.
 
 
 ## Testing
