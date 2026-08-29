@@ -1,12 +1,11 @@
 {
   "website":{
-    "title": "Jack's blog"
+    "title": "Ignacio Amaya"
   },
   "nav":{
     "home": "Home",
     "about_me": "About",
     "skills": "Skills",
-    "projects": "Projects",
     "publications": "Publications",
     "career": "Career",
     "blog": "Blog",
@@ -14,68 +13,49 @@
   },
   "about_me":{
     "about_me": "About Me",
-    "des": "I’m a data scientist with strong data engineer skills. I worked for more than 2 years in the financial sector disrupting the industry with innovative data analytics solutions. Right now, I am working in the mobile gaming sector, where I collaborate closely with the games, ads and user acquisition teams. Overall, I have more than 5 years experience working in Machine Learning and Big Data projects."
+    "des": "I'm a Senior Manager leading the AI Lab at Rovio, focused on building AI systems that combine technical depth, creativity, and real product impact. I've led projects ranging from production-ready ML models to generative AI tools that help artists, designers, and developers work faster and more effectively. I'm especially interested in how AI and creativity come together to create better products and experiences for players."
   },
   "skills":{
     "my_skills": "My Skills"
   },
-  "projects":{
-    "my_projects": "My Projects",
-    "imbalance": "Repository with different resources that add some useful funcionalities to Spark ML when dealing with unbalanced datasets.",
-    "uni": "Repository with some of the coding projects completed during my BSc in Maths and Computer Science and my MSc in Data Science.",
-    "contest": "Repository with the code submitted to some programming contests I have participated in.",
-    "shiny": "My first project created in Shiny to test its funcionalities."
-  },
   "career":{
     "my_career": "My Career",
-    "rovio": "Rovio, Helsinki",
-    "rovio_des": "Working in the Data Engineering team. Creating ML models that game teams can use to personalise the game experience of their players.",
-    "rovio_date": "Aug 2019 - Currently",
-    "rovio_job": "Machine Learning Engineer",
+    "rovio_ai": "Rovio, Helsinki",
+    "rovio_ai_des": "Leading Rovio's AI Lab, dedicated to prototyping and validating high-impact generative AI and ML solutions for game development. Driving the AI strategy, defining the technical roadmap, and fostering adoption of AI across the company.",
+    "rovio_ai_date": "Apr 2026 - Present",
+    "rovio_ai_job": "Senior Manager, AI Lab",
+    "rovio_lead": "Rovio, Helsinki",
+    "rovio_lead_des": "Progressed from Machine Learning Engineer to Principal ML Engineer, leading Rovio's ML engineering team across Personalization, Ads and User Acquisition. Spearheaded the AI strategy and governance, and led the design of generative AI tools, LLM and agentic systems for creative teams.",
+    "rovio_lead_date": "Aug 2019 - Apr 2026",
+    "rovio_lead_job": "Principal ML Engineer, Team Manager",
     "ey": "EY, Madrid",
-    "ey_des": "Working at EY's Wavespace innovation center in Madrid. After my involment in a project about delivering a data lake for a leading asset management company, I was promoted to senior consultant and worked as technical lead creating a service for a leading Nordic insurance company to automatically detect terms and figures from pictures of their invoices.",
+    "ey_des": "Led and delivered AI and data engineering projects for financial and insurance clients, directing multidisciplinary teams from concept to production. Built OCR and deep learning systems for automated document understanding and helped clients deploy Big Data and cloud platforms.",
     "ey_date": "Jan 2018 - Aug 2019",
-    "ey_job": "Data Science & Data Engineering Consultant",
+    "ey_job": "Senior Consultant, Data Science & Data Engineering",
     "qliro": "Qliro AB, Stockholm",
-    "qliro_des": "Qliro is a leader online payments provider in the Nordics. I was part of the BI team and involved in creating from scratch the company's data lake. I also did there my master thesis which consisted in creating machine learning models to detect fraud in payments.",
+    "qliro_des": "Created Scala-based ETL pipelines to migrate large datasets from SQL to Hadoop and developed fraud detection models using Spark ML, while contributing to the company's data infrastructure modernization initiative.",
     "qliro_date": "Feb 2017 - Sep 2017",
     "qliro_job": "Big Data Developer",
-    "hack": "HackSociety, Bucharest",
-    "hack_des": "In December 2016 I participated at the first edition of the hackathon HackSociety and our team won the first place of the FotoNation challenge. Our winner program converted a laptop into a touch screen for drawing flow diagrams using two low quality cameras and a regular pencil.",
-    "hack_date": "Dec 2016",
-    "hack_job": "Winner of hackathon",
     "kth": "Royal Institute of Technology (KTH), Stockholm",
     "kth_des": "Second year of my EIT Digital Data Science Master. Specialization in Distributed Systems and Data Mining for Really Big Data.",
     "kth_date": "Sep 2016 - Aug 2017",
     "kth_job": "MSc student",
-    "summer": "EIT Summer School about Smart Spaces, Helsinki",
-    "summer_des": "In August 2016, I participated in the EIT Summer School about Smart Spaces that was held in Helsinki during two weeks. The classes were oriented to create a business plan about a smart spaces startup idea paying a special attention to solving real customer pains.",
-    "summer_date": "Aug 2016",
-    "summer_job": "Summer School Participant",
     "indizen": "Indizen, Madrid",
     "indizen_des": "I did an internship with Indizen, a Spanish consulting company, as a member of its Big Data department. I was involved in a project to detect and analyze geolocated social media data to find emerging news in Barcelona for a newspaper.",
     "indizen_date": "May 2016 - Jun 2016",
     "indizen_job": "Data Science Intern",
     "vaciatucasa": "Vaciatucasa, Madrid",
-    "vaciatucasa_des": "I developed a Point of Sale sofware program for Vaciatucasa. This company needed a POS system to enable street market sells.",
+    "vaciatucasa_des": "I developed a Point of Sale software program for Vaciatucasa. This company needed a POS system to enable street market sells.",
     "vaciatucasa_date": "Mar 2016",
-    "vaciatucasa_job": "Freelance developer",
+    "vaciatucasa_job": "Freelancer",
     "upm": "Technical University of Madrid (UPM), Madrid",
-    "upm_des": "I pursued my first year in the EIT Digital Data Science  double degree program.",
+    "upm_des": "I pursued my first year in the EIT Digital Data Science double degree program.",
     "upm_date": "Sep 2015 - Jun 2016",
     "upm_job": "MSc student",
     "crida": "CRIDA A.I.E., Madrid",
-    "crida_des": "I worked at CRIDA as a a developer in the context of Eurpean Air Trafic Control projects. I was in charge of designing ETL processes to load data into the company's data warehouse.",
+    "crida_des": "I worked at CRIDA as a developer in the context of European Air Traffic Control projects. I was in charge of designing ETL processes to load data into the company's data warehouse.",
     "crida_date": "May 2015 - Jul 2015",
     "crida_job": "Developer Intern",
-    "ies": "IES Abroad, Madrid",
-    "ies_des": "From March 2015 to May 2015 I was giving classes about databases to exchange American students.",
-    "ies_date": "Mar 2015 - May 2015",
-    "ies_job": "Private Tutor",
-    "math": "Applied Math Department at UPM, Madrid",
-    "math_des": "From December 2014 to March 2015 I developed ContestMaker, a graphic app in Java, using Processing, which eased the process of creating interdisciplicary student contests. I was in charge of gathering all the questions created by the students from twelve different subjects. The contest gave the student extra points in the subjects for creating the questions, enabled collaboration across student from different courses, and the best team in the competition won additional points.",
-    "math_date": "Dec 2014 - Mar 2015",
-    "math_job": "University Intern",
     "degree": "Technical University of Madrid (UPM), Madrid",
     "degree_des": "I was pursuing my Bachelor's Degree in Mathematics and Informatics.",
     "degree_date": "Sep 2011 - Jul 2015",
@@ -84,13 +64,11 @@
   "publications":{
     "my_publications": "My Publications",
     "kth_title": "Fraud detection in online payments using Spark ML",
-    "kth_author": "Amaya de la peña, Ignacio",
+    "kth_author": "Amaya de la Peña, Ignacio",
     "kth_data": "Master Thesis, Royal Institute of Technology (KTH), Stockholm, Sweden, 2017.",
-    "kth_pdf": "static/pdf/msc_thesis.pdf",
     "upm_title": "Presencia en Twitter de los candidatos a las elecciones madrileñas de 2015",
-    "upm_author": "Amaya de la peña, Ignacio",
+    "upm_author": "Amaya de la Peña, Ignacio",
     "upm_data" : "BSc thesis, E.T.S. de Ingenieros Informáticos (UPM), Madrid, Spain, 2015.",
-    "upm_pdf": "static/pdf/bsc_thesis.pdf"
   },
   "blog":{
     "my_blog": "My Blog"
@@ -99,5 +77,4 @@
     "link": "Link",
     "view": "views"
   }
-
 }

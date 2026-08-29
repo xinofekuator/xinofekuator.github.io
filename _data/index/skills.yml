@@ -1,6 +1,25 @@
 # skills section data
+skills:
+  - category: Languages
+    items: Spanish (native), English (professional working proficiency)
 
-label: Ability
-id : cs
-aspects: Python|Scikit-learn|Pandas|Spark|Java|Linux/Shell|AWS|Azure|SQL|R
-percentage: 95, 90, 90, 95, 75, 70, 75, 70, 80, 55 
+  - category: Soft Skills
+    items: Team leadership, communication, cross-functional collaboration, rapid prototyping, product thinking, strategic planning
+
+  - category: Programming
+    items: Python, SQL, Bash; exposure to R, Java, JavaScript, Scala
+
+  - category: Data Science & ML
+    items: TensorFlow, PyTorch, ONNX, Scikit-learn, Pandas, Polars, Spark ML; MLflow, AWS SageMaker, Databricks, Vowpal Wabbit; Poetry, uv
+
+  - category: LLMs & Agents
+    items: GPT, Claude, Llama, Veo2; AWS Bedrock & Bedrock Agents, MCPs, RAG, LLM evaluation; Hex Magic, Databricks Genie
+
+  - category: Generative AI & Art
+    items: GitHub Copilot, Claude Code/Skills, Gemini, ComfyUI; Stable Diffusion, Flux, Qwen, HiDream
+
+  - category: Big Data & Analytics
+    items: Spark, Hive, Presto, Athena, Hex; exposure to Elasticsearch and Grafana
+
+  - category: Cloud & DevOps
+    items: Git, Docker, AWS, Azkaban; exposure to Kubernetes, Jenkins, TeamCity, Azure

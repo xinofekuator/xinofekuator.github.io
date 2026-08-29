@@ -1,18 +1,20 @@
 # links section data
-- last_name: Linkedin
-  first_name: profile
-  desc: More information about me in my Linkedin page.
-  website: https://www.linkedin.com/in/ignacio-amaya/
-  email: contact@ignacioamaya.com
+- last_name: Talks
+  first_name: GDC 2026
+  desc: Talk at the Game Developers Conference 2026.
+  website: https://lnkd.in/p/dyhCu48A
 
-- last_name: UNICEF 
+- last_name: Talks
+  first_name: AWS re:Invent 2025
+  desc: Talk at AWS re:Invent 2025.
+  website: https://www.youtube.com/watch?v=ZDrqhVSY9Mc
+
+- last_name: UNICEF
   first_name: Video
   desc: Classroom Series with UNICEF Finland E04 featuring Ignacio Amaya - What is data?
   website: https://www.youtube.com/watch?v=xORrvAl9E-A&feature=youtu.be
-  email: contact@ignacioamaya.com
 
 - last_name: Employee story
   first_name: Rovio
   desc: Employee story.
   website: https://www.rovio.com/articles/employee-story-ignacio-amaya/
-  email: contact@ignacioamaya.com
