@@ -1,58 +1,58 @@
 - name:
-    detail: 
-    i18n: rovio
+    detail: Rovio, Helsinki
+    i18n: rovio_ai
   desc:
-    detail: 
-    i18n: rovio_des
+    detail: Leading Rovio's AI Lab, dedicated to prototyping and validating high-impact generative AI and ML solutions for game development. Driving the AI strategy, defining the technical roadmap, and fostering adoption of AI across the company.
+    i18n: rovio_ai_des
   date:
-    detail: Aug 2019 - Now
-    i18n: rovio_date
+    detail: Apr 2026 - Present
+    i18n: rovio_ai_date
   job:
-    detail: 
-    i18n: rovio_job
+    detail: Senior Manager, AI Lab
+    i18n: rovio_ai_job
   icon: fa-gamepad
 
 - name:
-    detail: 
-    i18n: ey
+    detail: Rovio, Helsinki
+    i18n: rovio_lead
   desc:
-    detail: 
-    i18n: ey_des
+    detail: Progressed from Machine Learning Engineer to Principal ML Engineer, leading Rovio's ML engineering team across Personalization, Ads and User Acquisition. Spearheaded the AI strategy and governance, and led the design of generative AI tools, LLM and agentic systems for creative teams.
+    i18n: rovio_lead_des
   date:
-    detail: Feb 2017 - Sep 2017
-    i18n: ey_date
+    detail: Aug 2019 - Apr 2026
+    i18n: rovio_lead_date
   job:
-    detail: 
-    i18n: ey_job
+    detail: Principal ML Engineer, Team Manager
+    i18n: rovio_lead_job
   icon: fa-line-chart
 
 - name:
-    detail:
+    detail: EY, Madrid
+    i18n: ey
+  desc:
+    detail: Led and delivered AI and data engineering projects for financial and insurance clients, directing multidisciplinary teams from concept to production. Built OCR and deep learning systems for automated document understanding and helped clients deploy Big Data and cloud platforms.
+    i18n: ey_des
+  date:
+    detail: Jan 2018 - Aug 2019
+    i18n: ey_date
+  job:
+    detail: Senior Consultant, Data Science & Data Engineering
+    i18n: ey_job
+  icon: fa-database
+
+- name:
+    detail: Qliro AB, Stockholm
     i18n: qliro
   desc:
-    detail:
+    detail: Created Scala-based ETL pipelines to migrate large datasets from SQL to Hadoop and developed fraud detection models using Spark ML, while contributing to the company's data infrastructure modernization initiative.
     i18n: qliro_des
   date:
-    detail:
+    detail: Feb 2017 - Sep 2017
     i18n: qliro_date
   job:
-    detail:
+    detail: Big Data Developer
     i18n: qliro_job
   icon: fa-search
-
-# - name:
-#     detail: Participant at the HackSociety Hackaton held in Bucharest
-#     i18n: hack
-#   desc:
-#     detail: In December 2016 I participated at the first edition of the hackaton HackSociety and our team won the first place of the FotoNation challenge. Our winner program converted a laptop into a touch screen for drawing flow diagrams using two low quality cameras and a regular pencil.
-#     i18n: hack_des
-#   date:
-#     detail: Dec 2016
-#     i18n: hack_date
-#   job:
-#     detail: Winner of hackaton
-#     i18n: hack_job
-#   icon: fa-book
 
 - name:
     detail: Master Student at KTH, Stockholm
@@ -68,25 +68,11 @@
     i18n: kth_job
   icon: fa-book
 
-# - name:
-#     detail: Particiant in the EIT Summer School about Smart Spaces, Helsinki
-#     i18n: summer
-#   desc:
-#     detail: In August 2016, I participated in the EIT Summer School about Smart Spaces that was held in Helsinki during two weeks. The classes were oriented to create a business plan about a smart spaces startup idea paying a special attention to solving real customer pains.
-#     i18n: summer_des
-#   date:
-#     detail: Aug 2016
-#     i18n: summer_date
-#   job:
-#     detail: Summer School Participant
-#     i18n: summer_job
-#   icon: fa-book
-
 - name:
     detail: Indizen, Madrid
     i18n: indizen
   desc:
-    detail: In May 2016, I started an Internship with Indizen as part of its Big Data department. I was involved in a project that consisted in analyzing geolocated social media data to detect news happening in real time and visualize them in a map of Barcelona. This data could be used to enhance newpapers teams in charge of detecting news. This project was developed in Python using Elasticsearch and Kibana in AWS.
+    detail: In May 2016, I started an Internship with Indizen as part of its Big Data department. I was involved in a project that consisted in analyzing geolocated social media data to detect news happening in real time and visualize them in a map of Barcelona.
     i18n: indizen_des
   date:
     detail: May 2016 - Jun 2016
@@ -97,10 +83,10 @@
   icon: fa-search
 
 - name:
-    detail: Freelance job for Vaciatucasa, Madrid
+    detail: Vaciatucasa, Madrid
     i18n: vaciatucasa
   desc:
-    detail: In March 2016 I developed a Point of Sale sofware program for Vaciatucasa. This company needed a simple POS system to enable street market sells.
+    detail: In March 2016 I developed a Point of Sale software program for Vaciatucasa. This company needed a simple POS system to enable street market sells.
     i18n: vaciatucasa_des
   date:
     detail: Mar 2016
@@ -114,7 +100,7 @@
     detail: Master Student at UPM, Madrid
     i18n: upm
   desc:
-    detail: In September 2016, I started my Data Science master in Madrid as part of the EIT Digital double degree program. Here I took basic courses about data mining, machine learning and distributed systems. We also took introductory courses about Business Innovation and Entrepreneurship as part of my minor, which plays a very important role in EIT Digital master programs.
+    detail: In September 2016, I started my Data Science master in Madrid as part of the EIT Digital double degree program. Here I took basic courses about data mining, machine learning and distributed systems.
     i18n: upm_des
   date:
     detail: Sep 2015 - Jun 2016
@@ -128,7 +114,7 @@
     detail: CRIDA A.I.E., Madrid
     i18n: crida
   desc:
-    detail: In May 2015 I started working at CRIDA as a developer in the context of Eurpean Air Trafic Control projects. I was in charge of designing ETL processes to load raw sources received daily into the company database. I also did data analysis and database maintenance. As a side project I created in Java a program that split audio files from airport control towers according to their silence gaps.
+    detail: In May 2015 I started working at CRIDA as a developer in the context of European Air Traffic Control projects. I was in charge of designing ETL processes to load raw sources received daily into the company database.
     i18n: crida_des
   date:
     detail: May 2015 - Jul 2015
@@ -137,34 +123,6 @@
     detail: Developer Intern
     i18n: crida_job
   icon: fa-search
-
-# - name:
-#     detail: IES Abroad, Madrid
-#     i18n: ies
-#   desc:
-#     detail: From March 2015 to May 2015 I was giving classes about databases to exchange American students. 
-#     i18n: ies_des
-#   date:
-#     detail: Mar 2015 - May 2015
-#     i18n: ies_date
-#   job:
-#     detail: Private Tutor
-#     i18n: ies_job
-#   icon: fa-search
-
-# - name:
-#     detail: Applied Math Department at UPM, Madrid
-#     i18n: math
-#   desc:
-#     detail: From December 2014 to March 2015 I developed ContestMaker, a graphic app in Java, using Processing, which eased the process of creating interdisciplicary student contests. I was in charge of gathering all the questions created by the students from twelve different subjects. The contest gave the student extra points in the subjects for creating the questions, enabled collaboration across student from different courses, and the best team in the competition won additional points.
-#     i18n: math_des
-#   date:
-#     detail: Dec 2014 - Mar 2015
-#     i18n: math_date
-#   job:
-#     detail: University Intern
-#     i18n: math_job
-#   icon: fa-search
 
 - name:
     detail: Undergraduate Student at UPM, Madrid

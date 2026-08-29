@@ -17,7 +17,7 @@ author:
   linkedin_username: 'https://www.linkedin.com/in/ignacio-amaya/'
   github_username: 'xinofekuator'
   head_img: 'static/img/landing/picture.png'
-  desc: 'I am a data scientist.'
+  desc: "I'm a Senior Manager leading the AI Lab at Rovio, focused on building AI systems that combine technical depth, creativity, and real product impact."
 
 # sections
 sections:
@@ -39,12 +39,6 @@ sections:
     tpl: 'skills.html'
     css: 'team'
 
-  - id: 'projects'
-    i18n: 'nav.projects'
-    name: 'Projects'
-    tpl: 'projects.html'
-    css: 'project'
-
   - id: 'publications'
     i18n: 'nav.publications'
     name: 'Publications'
@@ -61,8 +55,6 @@ sections:
 languages:
   - locale: 'en'
     flag: 'static/img/flags/United-States.png'
-  - locale: 'es'
-    flag: 'static/img/flags/Spain.png'
 
 # blog img path
 img_path: 'http://ignacioamaya.com/static/img/blog'
