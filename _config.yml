@@ -16,17 +16,11 @@ author:
   email: 'contact@ignacioamaya.com'
   linkedin_username: 'https://www.linkedin.com/in/ignacio-amaya/'
   github_username: 'xinofekuator'
-  head_img: 'static/img/landing/picture.png'
+  head_img: 'static/img/landing/me.jpeg'
   desc: "I'm a Senior Manager leading the AI Lab at Rovio, focused on building AI systems that combine technical depth, creativity, and real product impact."
 
 # sections
 sections:
-  - id: 'about-me'
-    i18n: 'nav.about_me'
-    name: 'About'
-    tpl: 'about.html'
-    css: ''
-
   - id: 'career'
     i18n: 'nav.career'
     name: 'Career'
@@ -39,17 +33,17 @@ sections:
     tpl: 'skills.html'
     css: 'team'
 
-  - id: 'publications'
-    i18n: 'nav.publications'
-    name: 'Publications'
-    tpl: 'publications.html'
-    css: 'publications'
-
   - id: 'blog'
     i18n: 'nav.blog'
     name: 'Blog'
     tpl: 'blog.html'
     css: 'testimonials navy-section'
+
+  - id: 'links'
+    i18n: 'nav.links'
+    name: 'Links'
+    tpl: 'links.html'
+    css: 'contact'
 
 # localization
 languages:

@@ -1,25 +1,125 @@
-# skills section data
+# skills section data — icon toolbox cloud
+# FontAwesome 4.7 (fa-*) for generic tools & soft skills
+# font-mfizz (icon-*) for real tech logos
 skills:
   - category: Languages
-    items: Spanish (native), English (professional working proficiency)
+    icon: fa-language
+    items:
+      - name: Spanish
+        icon: fa-flag
+      - name: English
+        icon: fa-flag-checkered
 
   - category: Soft Skills
-    items: Team leadership, communication, cross-functional collaboration, rapid prototyping, product thinking, strategic planning
+    icon: fa-users
+    items:
+      - name: Leadership
+        icon: fa-sitemap
+      - name: Communication
+        icon: fa-comments-o
+      - name: Cross-functional Collaboration
+        icon: fa-users
+      - name: Rapid Prototyping
+        icon: fa-bolt
+      - name: Product Thinking
+        icon: fa-lightbulb-o
+      - name: Strategic Planning
+        icon: fa-bullseye
 
   - category: Programming
-    items: Python, SQL, Bash; exposure to R, Java, JavaScript, Scala
+    icon: fa-code
+    items:
+      - name: Python
+        icon: icon-python
+      - name: SQL
+        icon: fa-database
+      - name: Bash
+        icon: icon-shell
+      - name: Java
+        icon: icon-java
+      - name: JavaScript
+        icon: icon-javascript
+      - name: Scala
+        icon: icon-scala
+      - name: R
+        icon: icon-c
 
   - category: Data Science & ML
-    items: TensorFlow, PyTorch, ONNX, Scikit-learn, Pandas, Polars, Spark ML; MLflow, AWS SageMaker, Databricks, Vowpal Wabbit; Poetry, uv
+    icon: fa-line-chart
+    items:
+      - name: TensorFlow
+        icon: fa-cubes
+      - name: PyTorch
+        icon: fa-fire
+      - name: Scikit-learn
+        icon: fa-flask
+      - name: Pandas / Polars
+        icon: fa-table
+      - name: Spark ML
+        icon: icon-hadoop
+      - name: MLflow
+        icon: fa-tasks
+      - name: SageMaker
+        icon: icon-aws
+      - name: Databricks
+        icon: fa-cube
 
   - category: LLMs & Agents
-    items: GPT, Claude, Llama, Veo2; AWS Bedrock & Bedrock Agents, MCPs, RAG, LLM evaluation; Hex Magic, Databricks Genie
+    icon: fa-comments
+    items:
+      - name: GPT / Claude / Llama
+        icon: fa-commenting-o
+      - name: RAG
+        icon: fa-random
+      - name: Bedrock Agents
+        icon: icon-aws
+      - name: MCPs
+        icon: fa-plug
+      - name: LLM Evaluation
+        icon: fa-check-circle-o
+      - name: Hex Magic / Databricks Genie
+        icon: fa-magic
 
   - category: Generative AI & Art
-    items: GitHub Copilot, Claude Code/Skills, Gemini, ComfyUI; Stable Diffusion, Flux, Qwen, HiDream
+    icon: fa-paint-brush
+    items:
+      - name: GitHub Copilot
+        icon: fa-code
+      - name: Claude Code / Skills
+        icon: icon-shell
+      - name: Gemini
+        icon: fa-google
+      - name: ComfyUI
+        icon: fa-sitemap
+      - name: Stable Diffusion / Flux
+        icon: fa-image
+      - name: Qwen / HiDream
+        icon: fa-picture-o
 
   - category: Big Data & Analytics
-    items: Spark, Hive, Presto, Athena, Hex; exposure to Elasticsearch and Grafana
+    icon: fa-bar-chart
+    items:
+      - name: Spark
+        icon: icon-hadoop
+      - name: Hive / Presto / Athena
+        icon: fa-database
+      - name: Elasticsearch
+        icon: icon-database-alt2
+      - name: Grafana
+        icon: fa-area-chart
 
   - category: Cloud & DevOps
-    items: Git, Docker, AWS, Azkaban; exposure to Kubernetes, Jenkins, TeamCity, Azure
+    icon: fa-cloud
+    items:
+      - name: Git
+        icon: icon-git
+      - name: Docker
+        icon: icon-docker
+      - name: AWS
+        icon: icon-aws
+      - name: Kubernetes
+        icon: fa-server
+      - name: Jenkins / TeamCity
+        icon: fa-gears
+      - name: Azkaban
+        icon: fa-cubes

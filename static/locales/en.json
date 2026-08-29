@@ -4,77 +4,38 @@
   },
   "nav":{
     "home": "Home",
-    "about_me": "About",
     "skills": "Skills",
-    "publications": "Publications",
     "career": "Career",
     "blog": "Blog",
-    "link": "Link"
-  },
-  "about_me":{
-    "about_me": "About Me",
-    "des": "I'm a Senior Manager leading the AI Lab at Rovio, focused on building AI systems that combine technical depth, creativity, and real product impact. I've led projects ranging from production-ready ML models to generative AI tools that help artists, designers, and developers work faster and more effectively. I'm especially interested in how AI and creativity come together to create better products and experiences for players."
+    "links": "Links"
   },
   "skills":{
     "my_skills": "My Skills"
   },
   "career":{
     "my_career": "My Career",
-    "rovio_ai": "Rovio, Helsinki",
-    "rovio_ai_des": "Leading Rovio's AI Lab, dedicated to prototyping and validating high-impact generative AI and ML solutions for game development. Driving the AI strategy, defining the technical roadmap, and fostering adoption of AI across the company.",
-    "rovio_ai_date": "Apr 2026 - Present",
-    "rovio_ai_job": "Senior Manager, AI Lab",
-    "rovio_lead": "Rovio, Helsinki",
-    "rovio_lead_des": "Progressed from Machine Learning Engineer to Principal ML Engineer, leading Rovio's ML engineering team across Personalization, Ads and User Acquisition. Spearheaded the AI strategy and governance, and led the design of generative AI tools, LLM and agentic systems for creative teams.",
-    "rovio_lead_date": "Aug 2019 - Apr 2026",
-    "rovio_lead_job": "Principal ML Engineer, Team Manager",
+    "rovio": "Rovio, Helsinki",
+    "rovio_des": "Leading Rovio's AI Lab, building high-impact generative AI and ML solutions for games. Previously led the ML team across Personalization, Ads and User Acquisition, grew to Principal ML Engineer, and drove the AI strategy, governance and genAI tooling.",
+    "rovio_date": "Aug 2019 - Present",
+    "rovio_job": "Senior Manager, AI Lab · Principal ML Engineer",
     "ey": "EY, Madrid",
-    "ey_des": "Led and delivered AI and data engineering projects for financial and insurance clients, directing multidisciplinary teams from concept to production. Built OCR and deep learning systems for automated document understanding and helped clients deploy Big Data and cloud platforms.",
+    "ey_des": "Led AI and data engineering projects for financial and insurance clients, from concept to production. Built OCR and deep learning systems for document understanding, and deployed Big Data and cloud platforms.",
     "ey_date": "Jan 2018 - Aug 2019",
     "ey_job": "Senior Consultant, Data Science & Data Engineering",
     "qliro": "Qliro AB, Stockholm",
-    "qliro_des": "Created Scala-based ETL pipelines to migrate large datasets from SQL to Hadoop and developed fraud detection models using Spark ML, while contributing to the company's data infrastructure modernization initiative.",
+    "qliro_des": "Built Scala-based ETL pipelines migrating data from SQL to Hadoop and fraud detection models with Spark ML, the basis of my master's thesis.",
     "qliro_date": "Feb 2017 - Sep 2017",
     "qliro_job": "Big Data Developer",
-    "kth": "Royal Institute of Technology (KTH), Stockholm",
-    "kth_des": "Second year of my EIT Digital Data Science Master. Specialization in Distributed Systems and Data Mining for Really Big Data.",
-    "kth_date": "Sep 2016 - Aug 2017",
-    "kth_job": "MSc student",
-    "indizen": "Indizen, Madrid",
-    "indizen_des": "I did an internship with Indizen, a Spanish consulting company, as a member of its Big Data department. I was involved in a project to detect and analyze geolocated social media data to find emerging news in Barcelona for a newspaper.",
-    "indizen_date": "May 2016 - Jun 2016",
-    "indizen_job": "Data Science Intern",
-    "vaciatucasa": "Vaciatucasa, Madrid",
-    "vaciatucasa_des": "I developed a Point of Sale software program for Vaciatucasa. This company needed a POS system to enable street market sells.",
-    "vaciatucasa_date": "Mar 2016",
-    "vaciatucasa_job": "Freelancer",
-    "upm": "Technical University of Madrid (UPM), Madrid",
-    "upm_des": "I pursued my first year in the EIT Digital Data Science double degree program.",
-    "upm_date": "Sep 2015 - Jun 2016",
-    "upm_job": "MSc student",
-    "crida": "CRIDA A.I.E., Madrid",
-    "crida_des": "I worked at CRIDA as a developer in the context of European Air Traffic Control projects. I was in charge of designing ETL processes to load data into the company's data warehouse.",
-    "crida_date": "May 2015 - Jul 2015",
-    "crida_job": "Developer Intern",
-    "degree": "Technical University of Madrid (UPM), Madrid",
-    "degree_des": "I was pursuing my Bachelor's Degree in Mathematics and Informatics.",
-    "degree_date": "Sep 2011 - Jul 2015",
-    "degree_job": "BSc Student"
-  },
-  "publications":{
-    "my_publications": "My Publications",
-    "kth_title": "Fraud detection in online payments using Spark ML",
-    "kth_author": "Amaya de la Peña, Ignacio",
-    "kth_data": "Master Thesis, Royal Institute of Technology (KTH), Stockholm, Sweden, 2017.",
-    "upm_title": "Presencia en Twitter de los candidatos a las elecciones madrileñas de 2015",
-    "upm_author": "Amaya de la Peña, Ignacio",
-    "upm_data" : "BSc thesis, E.T.S. de Ingenieros Informáticos (UPM), Madrid, Spain, 2015.",
+    "education": "Education & early career",
+    "education_des": "BSc in Mathematics & Informatics (UPM) and a double-degree Data Science MSc (UPM & KTH). Early experience: intern at CRIDA and Indizen, freelance for Vaciatucasa.",
+    "education_date": "Sep 2011 - Aug 2017",
+    "education_job": "BSc Mathematics & Informatics (UPM) · MSc Data Science (UPM & KTH) · Internships"
   },
   "blog":{
     "my_blog": "My Blog"
   },
-  "link":{
-    "link": "Link",
+  "links":{
+    "links": "Links",
     "view": "views"
   }
 }

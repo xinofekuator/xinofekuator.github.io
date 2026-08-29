@@ -1,4 +1,70 @@
 <div class="container" id="i18_career">
+    <style>
+        #i18_career .vertical-timeline-block {
+            margin: 16px 0;
+            position: relative;
+        }
+        #i18_career .vertical-timeline-icon {
+            left: 0;
+            margin-left: 0;
+            width: 48px;
+            height: 48px;
+            font-size: 19px;
+        }
+        #i18_career .vertical-timeline-icon i {
+            width: 24px;
+            height: 24px;
+            margin-left: -12px;
+            margin-top: -9px;
+        }
+        #i18_career .career-head {
+            margin-left: 68px;
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        #i18_career .career-company {
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            color: #1f2937;
+        }
+        #i18_career .career-date {
+            font-size: 15px;
+            color: #6b7280;
+            font-weight: 500;
+        }
+        #i18_career .vertical-timeline-content {
+            margin: 6px 0 0 68px;
+            padding: 14px 18px;
+            width: auto;
+            border: 1px solid #e7eaec;
+            border-radius: 8px;
+            background: #fff;
+        }
+        #i18_career .vertical-timeline-content:before {
+            display: none;
+        }
+        #i18_career .vertical-timeline-content .career-job {
+            margin: 0 0 4px;
+            color: #3385FF;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1.4;
+        }
+        #i18_career .vertical-timeline-content p {
+            margin: 0;
+            font-size: 15px;
+            line-height: 1.55;
+            color: #4b5563;
+        }
+        @media (max-width: 480px) {
+            #i18_career .career-company {
+                margin-bottom: 2px;
+            }
+        }
+    </style>
     <div class="row">
         <div class="col-lg-12 text-center">
             <div class="navy-line"></div>
@@ -7,18 +73,19 @@
     </div>
     <div class="row features-block">
         <div class="col-lg-12">
-            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+            <div id="vertical-timeline" class="vertical-container light-timeline">
             {% for career in site.data.index.careers %}
-            {% assign loopindex = forloop.index | modulo: 2 %}
                 <div class="vertical-timeline-block">
                     <div class="vertical-timeline-icon navy-bg wow rotateIn">
                         <i class="fa {{ career.icon }}"></i>
                     </div>
-                    <div class="vertical-timeline-content wow {% if loopindex == 1 %} rotateInUpRight {% else %} rotateInUpLeft {% endif %}">
-                        <h2><span data-i18n="career.{{ career.name.i18n }}">{{ career.name.detail }}</span></h2>
-                        <p><span data-i18n="career.{{ career.desc.i18n }}">{{ career.desc.detail }} </span></p>
-                        <span class="vertical-date"><span data-i18n="career.{{ career.date.i18n }}"> {{ career.date.detail }} </span>
-                        <br/> <small><span data-i18n="career.{{ career.job.i18n }}">{{ career.job.detail }}</span></small> </span>
+                    <div class="career-head">
+                        <span class="career-company"><span data-i18n="career.{{ career.name.i18n }}">{{ career.name.detail }}</span></span>
+                        <span class="career-date"><span data-i18n="career.{{ career.date.i18n }}">{{ career.date.detail }}</span></span>
+                    </div>
+                    <div class="vertical-timeline-content wow fadeInUp">
+                        <p class="career-job"><span data-i18n="career.{{ career.job.i18n }}">{{ career.job.detail }}</span></p>
+                        <p><span data-i18n="career.{{ career.desc.i18n }}">{{ career.desc.detail }}</span></p>
                     </div>
                 </div>
             {% endfor %}
