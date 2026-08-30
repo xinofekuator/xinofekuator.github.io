@@ -24,17 +24,23 @@
                     <a class="navbar-brand" href="/">{{ site.title }}</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        {% if page.title == 'Apps' %}
-                        <li class="active"><a href="/apps/">Apps</a></li>
-                        {% else %}
-                        <li class="active"><a href="/blog/">Blog</a></li>
-                        {% endif %}
+                    <ul class="nav navbar-nav navbar-right" id="i18_navbar">
+                    {% for section in site.sections %}
+                        <li {% if page.title == section.name %}class="active"{% endif %}>
+                          <a href="{% if section.page %}{{ section.page | relative_url }}{% else %}/#{{ section.id }}{% endif %}">
+                            <span>{{ section.name }}</span>
+                          </a>
+                        </li>
+                    {% endfor %}
+                        <li {% if page.title == 'Apps' %}class="active"{% endif %}>
+                          <a href="/apps/"><span>Apps</span></a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
 </div>
+{% unless page.title == 'Apps' %}
 <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#inSlider" data-slide-to="0" class="active"></li>
@@ -71,3 +77,4 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+{% endunless %}
