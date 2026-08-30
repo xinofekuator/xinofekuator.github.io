@@ -30,4 +30,6 @@ var cbpAnimatedHeader = (function() {
 })();
 
 // Activate WOW.js plugin for animation on scroll
-new WOW().init();
+// Disabled on mobile: visibility:hidden + scroll/resize reveal polling causes
+// scroll jumps at the bottom of the page on Android Chrome.
+new WOW({ mobile: false }).init();
